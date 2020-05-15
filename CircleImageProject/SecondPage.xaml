@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CircleImageProject.SecondPage"
+             >
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label HorizontalOptions="Center" Text="This circle image is created in xaml page"/>
+        <controls:CircleImage  Source="https://media-exp1.licdn.com/dms/image/C5603AQG7hbLbPS_haQ/profile-displayphoto-shrink_400_400/0?e=1594857600&amp;v=beta&amp;t=KKmuIFBDdQ58z8NDx0bOVEEjM2pBsXEE5aqpRlObH6w"
+        Aspect="AspectFill" WidthRequest="150" HeightRequest="150"
+        BorderColor="Red" BorderThickness="5" HorizontalOptions="Center">
+        </controls:CircleImage>
+         
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
